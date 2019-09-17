@@ -1,0 +1,15 @@
+Team Prawwwwject README
+
+MEMBERS: Xusong Ho, Michael Doan, Corey Stephens, Jeff Kaufmann, Alex Sandridge, Greg Lenard
+
+
+Overview:
+
+The bulk of the application exists in the Linking folder. The rest of the main folders in this directory were for testing and so team members didn't accidently overwrite other peoples code while working on their own. The DB folder may be of interest as 
+it contains the scripts to populate the database with random gifs along with other database operations that are called within app.js. 
+
+Within the Linking folder, the layout resembles the standard layout for a Node Application. The main program is app.js which was used to launch the server locally. Views contains all the resources that the html/css/js requires to build the front end. 
+
+Testing:
+
+We ran unit tests on our database code using custom Node.js and MySQL functions. The gifRequest unit test checked that a valid URL was placed in the database. Likewise, the getGif unit test checks that a valid URL was returned. The getGifById unit test not only checks for a returned URL, but also checks that the returned URL matches the URL stored in the database.
