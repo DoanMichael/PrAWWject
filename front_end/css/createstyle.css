@@ -1,0 +1,52 @@
+body {
+	font-family: Lobster, serif; 
+	background-image: url("projectbackground.jpg");
+}
+
+.grid-container{
+	display: grid;
+	padding-top: 30px;
+	grid-template-areas: 'left main right';
+	grid-template-columns: 40% 20% 40%;
+	background-image: url("headerbackground.jpg");
+	box-shadow: 10px 10px 25px 5px black;
+	border: 2px solid black;
+    border-style: outset;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 50%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+
+
+}
+.grid-item{
+	align-self: center;
+}
+
+.createbutton{
+	font-family: Lobster, serif;
+    text-align: center;
+	color:black;
+	height:50px;
+	width:100px;
+	font-size:200%;
+	box-shadow: 10px 10px 25px 5px black;
+	margin-left: 25px;
+	margin-top: 25px;
+	background-image: url("headerbackground.jpg");
+}
+.headstyle{
+	text-decoration: bold;
+	text-decoration: underline;
+	font-size: 26pt;
+}
+
+.title-style {
+  font-size:600%;
+  font-size: 7vmin;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 80%;
+}

@@ -1,0 +1,85 @@
+body {
+	font-family: Lobster, serif; 
+	background-image: url("projectbackground.jpg");
+}
+
+.grid-container{
+	margin-top: 5%;
+	display: grid;
+	grid-template-areas: 'left main right';
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 15px;
+	background-image: url("headerbackground.jpg");
+	box-shadow: 10px 10px 25px 5px black;
+	border: 2px solid black;
+    border-style: outset;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+.grid-item1{
+	grid-area: left;
+	align-self: center;
+	text-align: right;
+	padding-right: 20%;
+}
+.grid-item2{
+	grid-area: main;
+	justify-content: center;
+}
+.grid-item3{
+	grid-area: right;
+	align-self: center;
+	text-align: left;
+	padding-left: 20%;
+}
+.loginbutton {
+	font-family: Lobster, serif;	
+}
+.aboutbutton{
+	font-family: Lobster, serif;
+}
+.likebutton{
+	font-family: Lobster, serif;
+    text-align: center;
+	color:black;
+	height:50px;
+	width:100px;
+	font-size:200%;
+	box-shadow: 10px 10px 25px 5px black;
+	margin-right: : 25px;
+	margin-top: 25px;
+	background-image: url("headerbackground.jpg");
+}
+.nextbutton{
+	font-family: Lobster, serif;
+    text-align: center;
+	color:black;
+	height:50px;
+	width:100px;
+	font-size:200%;
+	box-shadow: 10px 10px 25px 5px black;
+	margin-left: 25px;
+	margin-top: 25px;
+	background-image: url("headerbackground.jpg");
+}
+
+.gifbox {
+	width: 600px;
+	height: 500px;
+    border: 2px solid black;
+    border-style: outset;
+    margin-top: 25px;
+    box-shadow: 10px 10px 25px 5px black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-style {
+  font-size:600%;
+  font-size: 7vmin;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 80%;
+}
