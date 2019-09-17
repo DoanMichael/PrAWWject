@@ -13,3 +13,6 @@ Within the Linking folder, the layout resembles the standard layout for a Node A
 Testing:
 
 We ran unit tests on our database code using custom Node.js and MySQL functions. The gifRequest unit test checked that a valid URL was placed in the database. Likewise, the getGif unit test checks that a valid URL was returned. The getGifById unit test not only checks for a returned URL, but also checks that the returned URL matches the URL stored in the database.
+
+
+Note: Unzip Linking.zip to get necessary folder
