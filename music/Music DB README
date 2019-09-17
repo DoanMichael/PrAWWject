@@ -1,0 +1,9 @@
+
+table name : music
+
+column 1:  "id"          :  primary key, 1 to ..., 1 int
+column 2:  "link_id"     :  You Tube ID, 11 charachters
+column 3:  "start_time"  :  time when music should start on youtube clip, IN SECONDS
+column 4:  "artist_name" :  keep track of artist in case link dies, 30 charachters
+column 5:  "song_title"  :  Same as above but for song title, 30 charachters
+
